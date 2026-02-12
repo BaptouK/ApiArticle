@@ -4,10 +4,10 @@ const articleService = require('../services/article-service');
 
 router.get("/getArticles", async (request, response) => {
     const unObjet = await articleService.getALlArticles();
-    return response.json({code: "200", message: "Un message", data: unObjet});
+    return response.json({code: "200", message: "Listes de tout les articles", data: unObjet});
 });
 
-router.get("/createArticle", async (request, response) => {
+router.post("/createArticle", async (request, response) => {
     const data = request.body;
     //console.log(data);
 

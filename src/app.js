@@ -1,5 +1,5 @@
 require('dotenv').config()
-
+const cors = require("cors");
 const express = require('express');
 const articleroute = require("./routes/article-route");
 //const DAOGameMock = require("./dao/mock/daogame-mock");
@@ -7,8 +7,8 @@ const articleroute = require("./routes/article-route");
 
 const app = express();
 app.use(express.json()); // indispensable
-app.use(cors());
 
+app.use(cors());
 
 app.use("/", articleroute);
 

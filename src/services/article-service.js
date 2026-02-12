@@ -6,7 +6,7 @@ const {makeService} = require("./service-helper");
 module.exports = {
     getALlArticles: async () => {
         const allArticles = await DAOFactory.getDAOArticle().selectAll();
-        return makeService("200", "Ca marche ", allArticles);
+        return allArticles;
     },
 
     createArticle: async (article) => {
