@@ -6,15 +6,14 @@ const articleroute = require("./routes/article-route");
 
 
 const app = express();
-app.use(express.json()); // indispensable
-
+app.use(express.json());
 app.use(cors());
 
 app.use("/", articleroute);
 
 if (process.env.BDD_MODE === "mysql") {
     console.log("Connexion à la base de données MySQL");
-    //require ('./dao/sequelize/connexion').connect_sequelize();
+    require ('./dao/sequelize/connexion').connect_sequelize();
 }
 else if (process.env.BDD_MODE === "mongodb") {
     console.log("Connexion à la base de données MongoDB");
