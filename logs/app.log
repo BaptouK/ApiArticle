@@ -142,3 +142,22 @@
 2026-02-12T14:56:42.725Z info: Code: 200 | Message: Jeu trouvé 
 2026-02-12T14:56:42.728Z info: Code: 200 | Message: Jeu trouvé 
 2026-02-12T14:56:43.975Z info: Code: 200 | Message: Jeu supprimer 
+2026-02-13T08:30:37.515Z info: Code: 200 | Message: Jeu trouvé 
+2026-02-13T08:30:37.523Z info: Code: 200 | Message: Jeu trouvé 
+2026-02-13T08:53:37.415Z info: Code: 200 | Message: Ca marche 
+2026-02-13T08:54:02.725Z info: Code: 200 | Message: Ca marche 
+2026-02-13T08:54:10.668Z info: Code: 200 | Message: Ca marche 
+2026-02-13T08:55:04.035Z info: Code: 200 | Message: Ca marche 
+2026-02-13T08:55:22.871Z info: Code: 200 | Message: Jeu créer 
+2026-02-13T08:55:24.303Z info: Code: 200 | Message: Jeu créer 
+2026-02-13T08:55:27.849Z info: Code: 200 | Message: Ca marche 
+2026-02-13T09:01:33.752Z info: Code: 200 | Message: Ca marche 
+2026-02-13T09:01:33.755Z info: Code: 200 | Message: Jeu créer 
+2026-02-13T09:01:33.755Z info: Code: 200 | Message: Jeu trouvé 
+2026-02-13T09:01:33.756Z info: Code: 200 | Message: Jeu supprimer 
+2026-02-13T09:01:33.757Z info: Code: 200 | Message: Jeu supprimer 
+2026-02-13T09:01:33.757Z info: Code: 404 | Message: Jeu non trouvé 
+2026-02-13T09:01:33.757Z info: Code: 404 | Message: Jeu non trouvé 
+2026-02-13T09:01:33.758Z info: Code: 404 | Message: Jeu non trouvé 
+2026-02-13T10:10:50.509Z info: Code: 200 | Message: Ca marche 
+2026-02-13T10:11:05.723Z info: Code: 200 | Message: Ca marche 

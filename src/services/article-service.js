@@ -4,9 +4,9 @@ const {makeService} = require("./service-helper");
 
 
 module.exports = {
-    getALlArticles: async () => {
+    getAllArticles: async () => {
         const allArticles = await DAOFactory.getDAOArticle().selectAll();
-        return allArticles;
+        return makeService("200", "Ca marche ", allArticles);
     },
 
     createArticle: async (article) => {
@@ -41,6 +41,4 @@ module.exports = {
         return makeService("200", "Jeu supprimer ", updatedArticle);
 
     }
-
-
 }

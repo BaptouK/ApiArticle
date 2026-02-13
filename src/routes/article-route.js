@@ -3,8 +3,8 @@ const router = express.Router();
 const articleService = require('../services/article-service');
 
 router.get("/getArticles", async (request, response) => {
-    const unObjet = await articleService.getALlArticles();
-    return response.json({code: "200", message: "Listes de tout les articles", data: unObjet});
+    const unObjet = await articleService.getAllArticles();
+    return response.json(unObjet);
 });
 
 router.post("/createArticle", async (request, response) => {
